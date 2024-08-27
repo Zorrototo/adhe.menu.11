@@ -38,7 +38,7 @@ FocusScope {
     property int iconSize
 
     property var horizontalScrollBarPolicy: PlasmaComponents.ScrollBar.AlwaysOff
-    property var verticalScrollBarPolicy: PlasmaComponents.ScrollBar.AlwaysOn
+    property var verticalScrollBarPolicy: PlasmaComponents.ScrollBar.AlwaysOff
 
     onDropEnabledChanged: {
         if (!dropEnabled && "dropPlaceHolderIndex" in model) {

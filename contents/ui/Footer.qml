@@ -38,15 +38,34 @@ RowLayout{
             service.startOperationCall(operation)
         }
     }
-
+    
+    P5Support.DataSource {
+        id: executable
+        engine: "executable"
+        connectedSources: []
+        onNewData: {
+            var exitCode = data["exit code"]
+            var exitStatus = data["exit status"]
+            var stdout = data["stdout"]
+            var stderr = data["stderr"]
+            exited(sourceName, exitCode, exitStatus, stdout, stderr)
+            disconnectSource(sourceName)
+        }
+        function exec(cmd) {
+            if (cmd) {
+                connectSource(cmd)
+            }
+        }
+        signal exited(string cmd, int exitCode, int exitStatus, string stdout, string stderr)
+    }
 
     Image {
         id: iconUser
         source: kuser.faceIconUrl.toString() || "user-identity"
         cache: false
         visible: source !== ""
-        sourceSize.height: parent.height * 0.9
-        sourceSize.width:  parent.height * 0.9
+        sourceSize.height: parent.height * 0.75
+        sourceSize.width:  parent.height * 0.75
         fillMode: Image.PreserveAspectFit
         Layout.alignment: Qt.AlignVCenter
 
@@ -79,40 +98,39 @@ RowLayout{
     }
 
     PlasmaComponents3.ToolButton {
-        icon.name:  "user-home"
-        onClicked: logic.openUrl("file:///usr/share/applications/org.kde.dolphin.desktop")
+        icon.name: "system-log-out-symbolic"
+        onClicked: executable.exec("qdbus org.kde.Shutdown /Shutdown logout")
         ToolTip.delay: 1000
         ToolTip.timeout: 1000
         ToolTip.visible: hovered
-        ToolTip.text: i18n("User Home")
+        ToolTip.text: i18n("Log Out")
     }
-
+    
     PlasmaComponents3.ToolButton {
-        icon.name:  "configure"
-        onClicked: logic.openUrl("file:///usr/share/applications/systemsettings.desktop")
+        icon.name: "system-suspend-symbolic"
+        onClicked: executable.exec("systemctl suspend")
         ToolTip.delay: 1000
         ToolTip.timeout: 1000
         ToolTip.visible: hovered
-        ToolTip.text: i18n("System Preferences")
+        ToolTip.text: i18n("Suspend")
     }
 
     PlasmaComponents3.ToolButton {
-        icon.name:   "system-lock-screen"
-        onClicked: pmEngine.performOperation("lockScreen")
+        icon.name: "system-restart-symbolic"
+        onClicked: executable.exec("systemctl reboot")
         ToolTip.delay: 1000
         ToolTip.timeout: 1000
         ToolTip.visible: hovered
-        ToolTip.text: i18n("Lock Screen")
-        visible: pmEngine.data["Sleep States"]["LockScreen"]
+        ToolTip.text: i18n("Restart")
     }
 
     PlasmaComponents3.ToolButton {
-        icon.name:  "system-shutdown"
+        icon.name: "system-shutdown-symbolic"
         onClicked: pmEngine.performOperation("requestShutDown")
         //Layout.rightMargin: 10
         ToolTip.delay: 1000
         ToolTip.timeout: 1000
         ToolTip.visible: hovered
-        ToolTip.text: i18n("Leave ...")
+        ToolTip.text: i18n("Shutdown")
     }
 }

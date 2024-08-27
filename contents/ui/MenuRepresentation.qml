@@ -256,7 +256,7 @@ PlasmaCore.Dialog {
         }
 
         Rectangle {
-            height: 2
+            height: 0
             width: searchField.width - 2
             anchors.bottom: searchField.bottom
             anchors.horizontalCenter: parent.horizontalCenter
@@ -279,7 +279,7 @@ PlasmaCore.Dialog {
             }
 
             width: rootItem.widthComputed
-            height: (root.cellSizeHeight * Plasmoid.configuration.numberRows) + (topRow.height*2) + (3*Kirigami.Units.largeSpacing)
+            height: (root.cellSizeHeight * Plasmoid.configuration.numberRows) + (topRow.height*2)
 
             Column {
                 width: rootItem.widthComputed
@@ -433,7 +433,7 @@ PlasmaCore.Dialog {
         PlasmaExtras.PlasmoidHeading {
             id: footer
             contentWidth: parent.width
-            contentHeight: Kirigami.Units.gridUnit * 3
+            contentHeight: Kirigami.Units.gridUnit * 2
             anchors.bottom: parent.bottom
             position: PC3.ToolBar.Footer
 
