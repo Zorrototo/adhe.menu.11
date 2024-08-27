@@ -279,7 +279,7 @@ PlasmaCore.Dialog {
             }
 
             width: rootItem.widthComputed
-            height: (root.cellSizeHeight * Plasmoid.configuration.numberRows) + (topRow.height*2)
+            height: (root.cellSizeHeight * Plasmoid.configuration.numberRows) + (topRow.height*2) + (3*Kirigami.Units.largeSpacing)
 
             Column {
                 width: rootItem.widthComputed
