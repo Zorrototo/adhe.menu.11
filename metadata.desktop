@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Menu 11
+Comment=Configurable grid of application
+
+Type=Service
+Icon=start-here-kde
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-Provides=org.kde.plasma.launchermenu
+
+X-KDE-PluginInfo-Author=Ademir
+X-KDE-PluginInfo-Email=adhemarks[at]gmail.com
+X-KDE-PluginInfo-Name=adhe.menu.11
+X-KDE-PluginInfo-Version=
+X-KDE-PluginInfo-Category=Application Launchers
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL v2+
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-Website=https://github.com
+
+Name[fr]=Menu 11
+Comment[fr]=Une grille d'application configurable
