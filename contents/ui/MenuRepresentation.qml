@@ -161,13 +161,13 @@ PlasmaCore.Dialog {
     mainItem: FocusScope {
         id: rootItem
 
-        property int widthComputed: root.cellSizeWidth * Plasmoid.configuration.numberColumns + Kirigami.Units.gridUnit*2
+        property int widthComputed: root.cellSizeWidth * Plasmoid.configuration.numberColumns //+ Kirigami.Units.gridUnit*2
 
         width: rootItem.widthComputed + Kirigami.Units.gridUnit*2
         Layout.minimumWidth: width
         Layout.maximumWidth: width
-        Layout.minimumHeight: view.height + searchField.height + footer.height + Kirigami.Units.gridUnit * 3
-        Layout.maximumHeight: view.height + searchField.height + footer.height + Kirigami.Units.gridUnit * 3
+        Layout.minimumHeight: view.height + searchField.height + footer.height //+ Kirigami.Units.gridUnit * 3
+        Layout.maximumHeight: view.height + searchField.height + footer.height //+ Kirigami.Units.gridUnit * 3
 
         focus: true
         onFocusChanged: searchField.focus = true
@@ -270,7 +270,7 @@ PlasmaCore.Dialog {
             currentIndex: 0
             clip: true
             anchors.top: searchField.bottom
-            anchors.topMargin: Kirigami.Units.gridUnit
+            anchors.topMargin: Kirigami.Units.gridUnit/2
             anchors.left: parent.left
             anchors.leftMargin: Kirigami.Units.gridUnit
 
