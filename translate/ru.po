@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
-"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
-"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"Report-Msgid-Bugs-To: https://github.com\n"
+"POT-Creation-Date: 2024-08-27 20:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Edward Karate <edward.karate@ya.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,32 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../metadata.desktop
-msgid "Ditto Menu"
-msgstr "Ditto Menu"
+msgid "Menu 11"
+msgstr ""
 
 #: ../metadata.desktop
-msgid "A configurable launcher menu"
-msgstr "Настраиваемое меню приложений"
-
-#: ../contents/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Убрать из избранного"
-
-#: ../contents/code/tools.js
-msgid "Add to Favorites"
-msgstr "Добавить в избранное"
-
-#: ../contents/code/tools.js
-msgid "On All Activities"
-msgstr "По всем видам деятельности"
-
-#: ../contents/code/tools.js
-msgid "On The Current Activity"
-msgstr "О текущей деятельности"
-
-#: ../contents/code/tools.js
-msgid "Show In Favorites"
-msgstr "Показать в Избранном"
+msgid "Configurable grid of application"
+msgstr ""
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -55,8 +35,8 @@ msgstr "Значок"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
-msgid "Choose..."
-msgstr "Выбрать..."
+msgid "Choose…"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
@@ -64,8 +44,28 @@ msgid "Clear Icon"
 msgstr "Очистить значок"
 
 #: ../contents/ui/ConfigGeneral.qml
-msgid "Show favorites first"
-msgstr "Сначала показать избранное"
+msgid "Apps icon size:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Small"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Medium"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Large"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Huge"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Docs icon size:"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Menu position"
@@ -103,41 +103,97 @@ msgstr "Показать все скрытые приложения"
 msgid "Unhidden!"
 msgstr "Показаны!"
 
-#: ../contents/ui/main.qml
-msgid "Edit Applications..."
-msgstr "Редактировать меню..."
+#: ../contents/ui/Footer.qml
+msgid "Log Out"
+msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "System Preferences"
-msgstr "Параметры системы"
+#: ../contents/ui/Footer.qml
+msgid "Suspend"
+msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "User Home"
-msgstr "Домашняя папка"
+#: ../contents/ui/Footer.qml
+msgid "Restart"
+msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Lock Screen"
-msgstr "Заблокировать"
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Leave ..."
-msgstr "Выход ..."
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Hi, "
-msgstr "Привет, "
+#: ../contents/ui/Footer.qml
+msgid "Shutdown"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "Type here to search ..."
 msgstr "Введите текст для поиска..."
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Favorites"
-msgstr "Избранное"
+msgid "Pinned"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
 msgstr "Все приложения"
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Убрать из избранного"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Добавить в избранное"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "По всем видам деятельности"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
+
+#~ msgid "Ditto Menu"
+#~ msgstr "Ditto Menu"
+
+#~ msgid "A configurable launcher menu"
+#~ msgstr "Настраиваемое меню приложений"
+
+#~ msgid "On The Current Activity"
+#~ msgstr "О текущей деятельности"
+
+#~ msgid "Show In Favorites"
+#~ msgstr "Показать в Избранном"
+
+#~ msgctxt "@item:inmenu Open icon chooser dialog"
+#~ msgid "Choose..."
+#~ msgstr "Выбрать..."
+
+#~ msgid "Show favorites first"
+#~ msgstr "Сначала показать избранное"
+
+#~ msgid "Edit Applications..."
+#~ msgstr "Редактировать меню..."
+
+#~ msgid "System Preferences"
+#~ msgstr "Параметры системы"
+
+#~ msgid "User Home"
+#~ msgstr "Домашняя папка"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Заблокировать"
+
+#~ msgid "Leave ..."
+#~ msgstr "Выход ..."
+
+#~ msgid "Hi, "
+#~ msgstr "Привет, "
+
+#~ msgid "Favorites"
+#~ msgstr "Избранное"
 
 #~ msgctxt "@action"
 #~ msgid "Lock Screen"

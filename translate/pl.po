@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
-"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
-"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"Report-Msgid-Bugs-To: https://github.com\n"
+"POT-Creation-Date: 2024-08-27 20:14+0200\n"
 "PO-Revision-Date: 2022-04-05 10:40+0100\n"
 "Last-Translator: Krzysztof Korab <korapps@outlook.com>\n"
 "Language-Team: \n"
@@ -18,32 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../metadata.desktop
-msgid "Ditto Menu"
+msgid "Menu 11"
 msgstr ""
 
 #: ../metadata.desktop
-msgid "A configurable launcher menu"
-msgstr "Konfigurowalne menu uruchamiania programów"
-
-#: ../contents/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Usuń z ulubionych"
-
-#: ../contents/code/tools.js
-msgid "Add to Favorites"
-msgstr "Dodaj do ulubionych"
-
-#: ../contents/code/tools.js
-msgid "On All Activities"
-msgstr "Na wszystkich aktywnościach"
-
-#: ../contents/code/tools.js
-msgid "On The Current Activity"
-msgstr "Na bieżącej aktywności"
-
-#: ../contents/code/tools.js
-msgid "Show In Favorites"
-msgstr "Pokaż w ulubionych"
+msgid "Configurable grid of application"
+msgstr ""
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -55,8 +35,8 @@ msgstr "Ikona:"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
-msgid "Choose..."
-msgstr "Wybierz..."
+msgid "Choose…"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
@@ -64,8 +44,28 @@ msgid "Clear Icon"
 msgstr "Wyczyść ikonę"
 
 #: ../contents/ui/ConfigGeneral.qml
-msgid "Show favorites first"
-msgstr "Najpierw pokaż ulubione"
+msgid "Apps icon size:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Small"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Medium"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Large"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Huge"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Docs icon size:"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Menu position"
@@ -103,41 +103,85 @@ msgstr "Uwidocznij wszystkie ukryte aplikacje"
 msgid "Unhidden!"
 msgstr "Wszystkie programy są widoczne!"
 
-#: ../contents/ui/main.qml
-msgid "Edit Applications..."
-msgstr "Edytuj programy..."
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "System Preferences"
-msgstr "Ustawienia systemowe"
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "User Home"
-msgstr "Katalog domowy"
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Lock Screen"
+#: ../contents/ui/Footer.qml
+msgid "Log Out"
 msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Leave ..."
+#: ../contents/ui/Footer.qml
+msgid "Suspend"
 msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Hi, "
-msgstr "Cześć, "
+#: ../contents/ui/Footer.qml
+msgid "Restart"
+msgstr ""
+
+#: ../contents/ui/Footer.qml
+msgid "Shutdown"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "Type here to search ..."
 msgstr "Wpisz tutaj, aby wyszukać..."
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Favorites"
+msgid "Pinned"
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
 msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Usuń z ulubionych"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Dodaj do ulubionych"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "Na wszystkich aktywnościach"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
+
+#~ msgid "A configurable launcher menu"
+#~ msgstr "Konfigurowalne menu uruchamiania programów"
+
+#~ msgid "On The Current Activity"
+#~ msgstr "Na bieżącej aktywności"
+
+#~ msgid "Show In Favorites"
+#~ msgstr "Pokaż w ulubionych"
+
+#~ msgctxt "@item:inmenu Open icon chooser dialog"
+#~ msgid "Choose..."
+#~ msgstr "Wybierz..."
+
+#~ msgid "Show favorites first"
+#~ msgstr "Najpierw pokaż ulubione"
+
+#~ msgid "Edit Applications..."
+#~ msgstr "Edytuj programy..."
+
+#~ msgid "System Preferences"
+#~ msgstr "Ustawienia systemowe"
+
+#~ msgid "User Home"
+#~ msgstr "Katalog domowy"
+
+#~ msgid "Hi, "
+#~ msgstr "Cześć, "
 
 #~ msgctxt "@action"
 #~ msgid "Lock Screen"

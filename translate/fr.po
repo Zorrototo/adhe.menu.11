@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
-"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
-"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"Report-Msgid-Bugs-To: https://github.com\n"
+"POT-Creation-Date: 2024-08-27 20:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: omano\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,32 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../metadata.desktop
-msgid "Ditto Menu"
-msgstr "Ditto Menu"
+msgid "Menu 11"
+msgstr "Menu 11"
 
 #: ../metadata.desktop
-msgid "A configurable launcher menu"
-msgstr "Un menu de lancement configurable"
-
-#: ../contents/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Enlever des Favoris"
-
-#: ../contents/code/tools.js
-msgid "Add to Favorites"
-msgstr "Ajouter aux Favoris"
-
-#: ../contents/code/tools.js
-msgid "On All Activities"
-msgstr "Sur toutes les Activités"
-
-#: ../contents/code/tools.js
-msgid "On The Current Activity"
-msgstr "Sur l'Activité actuelle"
-
-#: ../contents/code/tools.js
-msgid "Show In Favorites"
-msgstr "Voir dans les Favoris"
+msgid "Configurable grid of application"
+msgstr "Une grille d'application configurable"
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -55,8 +35,8 @@ msgstr "Icône:"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
-msgid "Choose..."
-msgstr "Choisir..."
+msgid "Choose…"
+msgstr "Sélectionner…"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
@@ -64,8 +44,28 @@ msgid "Clear Icon"
 msgstr "Supprimer l'icône"
 
 #: ../contents/ui/ConfigGeneral.qml
-msgid "Show favorites first"
-msgstr "Voir les Favoris en premier"
+msgid "Apps icon size:"
+msgstr "Taille d'icône des applications"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Small"
+msgstr "Petit"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Medium"
+msgstr "Moyen"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Large"
+msgstr "Grand"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Huge"
+msgstr "Enorme"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Docs icon size:"
+msgstr "Taille d'icone Docs"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Menu position"
@@ -103,38 +103,54 @@ msgstr "Ne plus cacher les applications"
 msgid "Unhidden!"
 msgstr "Plus cachées!"
 
-#: ../contents/ui/main.qml
-msgid "Edit Applications..."
-msgstr ""
+#: ../contents/ui/Footer.qml
+msgid "Log Out"
+msgstr "Se déconnecter"
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "System Preferences"
-msgstr "Préférences Système"
+#: ../contents/ui/Footer.qml
+msgid "Suspend"
+msgstr "Mettre en veille"
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "User Home"
-msgstr "Dossier Personnel"
+#: ../contents/ui/Footer.qml
+msgid "Restart"
+msgstr "Redémarrer"
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Lock Screen"
-msgstr "Verrouiller l'écran"
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Leave ..."
-msgstr "Quitter ..."
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Hi, "
-msgstr "Salut, "
+#: ../contents/ui/Footer.qml
+msgid "Shutdown"
+msgstr "Eteindre"
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "Type here to search ..."
 msgstr "Rechercher ..."
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Favorites"
+msgid "Pinned"
 msgstr "Favoris"
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
 msgstr "Toutes les applications"
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Enlever des Favoris"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Ajouter aux Favoris"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "Sur toutes les Activités"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr "Sur l'Activité en cours"
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr "Voir dans les Favoris"
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr "Editer les Applications…"

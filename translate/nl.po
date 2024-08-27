@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
-"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
-"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"Report-Msgid-Bugs-To: https://github.com\n"
+"POT-Creation-Date: 2024-08-27 20:14+0200\n"
 "PO-Revision-Date: 2022-01-01 20:09+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
@@ -19,32 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../metadata.desktop
-msgid "Ditto Menu"
-msgstr "Ditto-menu"
+msgid "Menu 11"
+msgstr ""
 
 #: ../metadata.desktop
-msgid "A configurable launcher menu"
-msgstr "Een instelbare programmastarter"
-
-#: ../contents/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Verwijderen uit favorieten"
-
-#: ../contents/code/tools.js
-msgid "Add to Favorites"
-msgstr "Toevoegen aan favorieten"
-
-#: ../contents/code/tools.js
-msgid "On All Activities"
-msgstr "Op alle activiteiten"
-
-#: ../contents/code/tools.js
-msgid "On The Current Activity"
-msgstr "Op de huidige activiteit"
-
-#: ../contents/code/tools.js
-msgid "Show In Favorites"
-msgstr "Toevoegen aan favorieten"
+msgid "Configurable grid of application"
+msgstr ""
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -56,8 +36,8 @@ msgstr "Pictogram:"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
-msgid "Choose..."
-msgstr "Kiezen…"
+msgid "Choose…"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
@@ -65,8 +45,28 @@ msgid "Clear Icon"
 msgstr "Pictogram verwijderen"
 
 #: ../contents/ui/ConfigGeneral.qml
-msgid "Show favorites first"
-msgstr "Favorieten bovenaan tonen"
+msgid "Apps icon size:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Small"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Medium"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Large"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Huge"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Docs icon size:"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Menu position"
@@ -104,28 +104,20 @@ msgstr "Alle verborgen programma's zichtbaar maken"
 msgid "Unhidden!"
 msgstr "Alles programma's zijn weer zichtbaar!"
 
-#: ../contents/ui/main.qml
-msgid "Edit Applications..."
-msgstr "Programma's bewerken…"
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "System Preferences"
-msgstr "Systeeminstellingen"
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "User Home"
+#: ../contents/ui/Footer.qml
+msgid "Log Out"
 msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Lock Screen"
+#: ../contents/ui/Footer.qml
+msgid "Suspend"
 msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Leave ..."
+#: ../contents/ui/Footer.qml
+msgid "Restart"
 msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Hi, "
+#: ../contents/ui/Footer.qml
+msgid "Shutdown"
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
@@ -133,12 +125,61 @@ msgid "Type here to search ..."
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Favorites"
+msgid "Pinned"
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
 msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Verwijderen uit favorieten"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Toevoegen aan favorieten"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "Op alle activiteiten"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
+
+#~ msgid "Ditto Menu"
+#~ msgstr "Ditto-menu"
+
+#~ msgid "A configurable launcher menu"
+#~ msgstr "Een instelbare programmastarter"
+
+#~ msgid "On The Current Activity"
+#~ msgstr "Op de huidige activiteit"
+
+#~ msgid "Show In Favorites"
+#~ msgstr "Toevoegen aan favorieten"
+
+#~ msgctxt "@item:inmenu Open icon chooser dialog"
+#~ msgid "Choose..."
+#~ msgstr "Kiezen…"
+
+#~ msgid "Show favorites first"
+#~ msgstr "Favorieten bovenaan tonen"
+
+#~ msgid "Edit Applications..."
+#~ msgstr "Programma's bewerken…"
+
+#~ msgid "System Preferences"
+#~ msgstr "Systeeminstellingen"
 
 #~ msgctxt "@action"
 #~ msgid "Lock Screen"
