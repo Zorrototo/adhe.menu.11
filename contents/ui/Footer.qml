@@ -126,7 +126,7 @@ RowLayout{
 
     PlasmaComponents3.ToolButton {
         icon.name: "system-shutdown-symbolic"
-        onClicked: pmEngine.performOperation("requestShutDown")
+        onClicked: executable.exec("systemctl poweroff")
         //Layout.rightMargin: 10
         ToolTip.delay: 1000
         ToolTip.timeout: 1000
